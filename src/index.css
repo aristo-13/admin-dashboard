@@ -4,13 +4,13 @@ html,
 body,
 #root,
 .content,
-.App {
+.app {
     height: 100%;
     width: 100%;
     font-family: 'Source Sans 3', sans-serif;
 }
 
-.App{
+.app{
     display: flex;
     position: relative;
 }
