@@ -43,7 +43,7 @@ const LSidebar = () => {
   return (
     <Box
       sx={{
-        "& .ps-sidebar-inner": {
+        "& .ps-sidebar-container": {
           background: `${colors.primary[400]} !important`,
         },
         "& .ps-icon-wrapper": {
