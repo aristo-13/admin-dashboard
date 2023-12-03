@@ -28,8 +28,12 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
       onClick={() => setSelected(title)}
       icon={icon}
     >
-      <Typography>{title}</Typography>
-      <Link to={to} />
+      <Link to={to} style={{
+        color: colors.grey[100],
+        textDecoration: 'none'
+      }}>
+        <Typography>{title}</Typography>
+      </Link>
     </MenuItem>
   );
 };
@@ -53,7 +57,7 @@ const LSidebar = () => {
           padding: "5px 35px 5px 20px !important",
         },
         "& .ps-inner-item:hover": {
-          color: "#868dfb !important",
+          color: " !important",
         },
         "& .ps-menu-item.ps-active": {
           color: "#6870fa !important",
